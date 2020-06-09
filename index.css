@@ -1,0 +1,24 @@
+.container-1{
+	border:2px solid black;
+	width:75%;
+	text-align: center;
+	margin:auto;
+}
+
+
+
+.flex-box-container-1 ,.flex-box-rps , .flex-box-pick-color {
+	display: flex;
+	border:1px solid black;
+	padding: 10px;
+	flex-wrap:wrap;
+	flex-direction:row-revenge;
+	justify-content:space-around;
+}
+
+.flex-box-container-1 div {
+	padding:10px;
+	
+	display:flex;
+	align-items:baseline;
+}
